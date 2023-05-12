@@ -13,7 +13,7 @@ namespace Assignment_CRUD.Controllers
 
         public HomeController(IConfiguration configuration)
         {
-            Configuration = configuration;
+            Configuration = configuration;//dependency injection
         }
         
 
